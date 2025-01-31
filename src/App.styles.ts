@@ -14,4 +14,8 @@ gap: 2.5em;
   flex-wrap: nowrap;
   flex-direction: column;
 }
+
+@media (min-width: 2500px){
+  scale: 2;
+}
 `;
