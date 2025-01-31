@@ -4,6 +4,7 @@ export const CreatorDetailsWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 0.8em;
+  margin-top: 0.8em;
 `;
 
 export const CreatorImgWrapper = styled.div`
@@ -32,4 +33,8 @@ export const CreatorName = styled.strong`
     cursor: pointer;
     color: var(--accent-color);
   }
+`;
+
+export const CreatorText = styled.p`
+  font-size: 0.8em;
 `;

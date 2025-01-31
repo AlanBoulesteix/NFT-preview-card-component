@@ -8,4 +8,5 @@ export const PriceWrapper = styled.div`
 
 export const PriceValue = styled.p`
   color: var(--accent-color);
+  font-size: 0.9rem;
 `;

@@ -2,6 +2,7 @@ import {
   CreatorDetailsWrapper,
   CreatorImgWrapper,
   CreatorName,
+  CreatorText,
 } from './Creator.styles';
 
 type CreatorProps = {
@@ -14,9 +15,9 @@ const Creator = ({ imgUrl, name }: CreatorProps) => (
     <CreatorImgWrapper>
       <img src={imgUrl} alt="Creator" />
     </CreatorImgWrapper>
-    <p>
+    <CreatorText>
       Created by <CreatorName>{name}</CreatorName>
-    </p>
+    </CreatorText>
   </CreatorDetailsWrapper>
 );
 

@@ -8,5 +8,7 @@ export const DateWrapper = styled.div`
 
 export const DateText = styled.p`
   color: var(--primary-color);
+  font-size: 0.8em;
+  font-weight: 300;
   margin: 0;
 `

@@ -66,5 +66,4 @@ export const Line = styled.div`
   width: 100%;
   height: 1px;
   background-color: var(--secondary-color);
-  margin: 1em 0;
 `;
