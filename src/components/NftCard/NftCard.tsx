@@ -1,12 +1,7 @@
 import Creator from '../Creator/Creator';
 import NftDetails from '../NftDetails/NftDetails';
 import NftImage from '../NftImage/NftImage';
-import {
-  Card,
-  Line,
-  NftDescription,
-  NftTitle,
-} from './NftCard.styles';
+import { Card, Line, NftDescription, NftTitle } from './NftCard.styles';
 
 type NftCardProps = {
   imgUrl: string;

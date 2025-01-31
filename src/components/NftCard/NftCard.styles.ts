@@ -21,6 +21,14 @@ export const NftTitle = styled.h3`
 export const NftDescription = styled.p`
   font-weight: 300;
   margin: 0;
+
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient:vertical;
+  white-space: normal;
 `;
 
 export const Line = styled.div`
