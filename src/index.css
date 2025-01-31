@@ -1,12 +1,20 @@
 :root {
   --background-color: #0D192C;
+  --secondary-background-color: #15263F;
   --primary-color: #8BACD9;
   --secondary-color: #FFFFFF;
   --accent-color: #00FFF8;
-  --secondary-background-color: #15263F;
 }
 
 body {
   background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--primary-color);
+}
+
+h2 {
   color: var(--primary-color);
 }
