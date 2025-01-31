@@ -10,3 +10,12 @@ body {
   background-color: var(--background-color);
   font-family: Outfit, sans-serif;
 }
+
+h3 {
+  color: var(--primary-color);
+  font-weight: 300;
+}
+
+p {
+  color: var(--primary-color);
+}
