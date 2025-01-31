@@ -1,4 +1,12 @@
-import { Card, ImgWrapper } from './NftCard.styles';
+import Creator from '../Creator/Creator';
+import NftDetails from '../NftDetails/NftDetails';
+import {
+  Card,
+  ImgWrapper,
+  Line,
+  NftDescription,
+  NftTitle,
+} from './NftCard.styles';
 
 const NftCard: React.FC = () => {
   return (
@@ -6,9 +14,13 @@ const NftCard: React.FC = () => {
       <ImgWrapper>
         <img src="/images/image-equilibrium.jpg" alt="NFT" />
       </ImgWrapper>
-      <h3>My NFT</h3>
-      <p>Price: 0.1 ETH</p>
-      <button>Buy</button>
+      <NftTitle>Equilibrium #3429</NftTitle>
+      <NftDescription>
+        Our Equilibrium collection promotes balance and calm.
+      </NftDescription>
+      <NftDetails price="0.41 ETH" date="3 days left" />
+      <Line />
+      <Creator imgUrl="/images/image-avatar.png" name={'Jules Wyvern'} />
     </Card>
   );
 };

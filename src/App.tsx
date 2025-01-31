@@ -6,6 +6,11 @@ function App() {
     <>
       <CardsWrapper>
         <NftCard />
+        <NftCard />
+        <NftCard />
+        <NftCard />
+        <NftCard />
+        <NftCard />
       </CardsWrapper>
     </>
   );

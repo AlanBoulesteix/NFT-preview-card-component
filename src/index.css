@@ -2,7 +2,7 @@
   --background-color: #0D192C;
   --secondary-background-color: #15263F;
   --primary-color: #8BACD9;
-  --secondary-color: #FFFFFF;
+  --secondary-color: #2E405A;
   --accent-color: #00FFF8;
 }
 
@@ -13,9 +13,9 @@ body {
 
 h3 {
   color: var(--primary-color);
-  font-weight: 300;
 }
 
 p {
   color: var(--primary-color);
+  font-size: 18px;
 }
