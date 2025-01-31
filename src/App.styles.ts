@@ -6,7 +6,7 @@ justify-content: space-evenly;
 align-items: center;
 flex-wrap: wrap;
 height: 100vh;
-width: 100vw;
+width: 90vw;
 overflow: auto;
 gap: 2.5em;
 
