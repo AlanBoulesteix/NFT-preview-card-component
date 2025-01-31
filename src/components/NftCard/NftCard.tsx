@@ -1,26 +1,40 @@
 import Creator from '../Creator/Creator';
 import NftDetails from '../NftDetails/NftDetails';
+import NftImage from '../NftImage/NftImage';
 import {
   Card,
-  ImgWrapper,
   Line,
   NftDescription,
   NftTitle,
 } from './NftCard.styles';
 
-const NftCard: React.FC = () => {
+type NftCardProps = {
+  imgUrl: string;
+  title: string;
+  description: string;
+  price: string;
+  date: string;
+  creatorImgUrl: string;
+  creatorName: string;
+};
+
+const NftCard = ({
+  imgUrl,
+  title,
+  description,
+  price,
+  date,
+  creatorName,
+  creatorImgUrl,
+}: NftCardProps): JSX.Element => {
   return (
     <Card>
-      <ImgWrapper>
-        <img src="/images/image-equilibrium.jpg" alt="NFT" />
-      </ImgWrapper>
-      <NftTitle>Equilibrium #3429</NftTitle>
-      <NftDescription>
-        Our Equilibrium collection promotes balance and calm.
-      </NftDescription>
-      <NftDetails price="0.41 ETH" date="3 days left" />
+      <NftImage url={imgUrl} />
+      <NftTitle>{title}</NftTitle>
+      <NftDescription>{description}</NftDescription>
+      <NftDetails price={price} date={date} />
       <Line />
-      <Creator imgUrl="/images/image-avatar.png" name={'Jules Wyvern'} />
+      <Creator imgUrl={creatorImgUrl} name={creatorName} />
     </Card>
   );
 };
