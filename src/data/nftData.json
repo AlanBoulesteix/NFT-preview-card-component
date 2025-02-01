@@ -10,17 +10,5 @@
       "name": "Jules Wyvern",
       "imageUrl": "/images/image-avatar.png"
     }
-  },
-  {
-    "id": 2,
-    "title": "The Genesis #231",
-    "description": "The Genesis collection is a tribute to the beginning of everything. Ready for your next adventure?",
-    "imageUrl": "/images/image-genesis.png",
-    "price": "0.031 ETH",
-    "date": "5 days left",
-    "creator": {
-      "name": "Alan Boulesteix",
-      "imageUrl": "/images/image-avatar2.jpg"
-    }
   }
 ]
