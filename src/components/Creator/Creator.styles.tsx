@@ -28,6 +28,7 @@ export const CreatorImgWrapper = styled.div`
 
 export const CreatorName = styled.strong`
   font-weight: normal;
+  color: var(--third-color);
 
   &:hover {
     cursor: pointer;

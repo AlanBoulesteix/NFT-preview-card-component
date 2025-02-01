@@ -4,6 +4,7 @@
   --primary-color: #8BACD9;
   --secondary-color: #2E405A;
   --accent-color: #00FFF8;
+  --third-color: #FFFFFF;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 h3 {
-  color: var(--primary-color);
+  color: var(--third-color);
 }
 
 p {
