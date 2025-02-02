@@ -10,6 +10,18 @@
         {
           "key": "X-Frame-Options",
           "value": "ALLOW-FROM https://www.alanboulesteix.com/"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(self), microphone=()"
         }
       ]
     }
